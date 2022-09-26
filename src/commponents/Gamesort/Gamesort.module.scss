@@ -1,0 +1,82 @@
+.gamesort{
+    background-color: #494949;
+    width: 1275px;
+    height: 215px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  .gamesorttop{
+    .underline{
+      border: 1px solid white;
+      width: 150px;
+      position: absolute;
+      left: 330px;
+      top: 407px;
+    }
+    img{
+      position: absolute;
+      left: 845px;
+    }
+    margin-left: 40px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    a{
+        margin-right: 37px;
+        font-size: 16px;
+        letter-spacing:2px;
+        font-weight: bold;
+    }
+   .dropdown{
+    position: absolute;
+    left: 625px;
+    width: 28px;
+    height: 20px;
+   }
+  }
+  .gamesortline{
+   width: 1275px;
+   margin: 0;
+	 padding: 0;
+	 height: 0;
+	 border: none;
+	 border-top: 1px solid #7c7c7c;
+  }
+  .searchbox{
+    display: flex;
+    align-items: center;
+    width: 215px;
+    height: 41px;
+    margin-left: 5px;
+  }
+  input{
+    width: 100%;
+    height: 100%;
+    color: #9a9a9a;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 5px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid rgba(155, 155, 155, 1);
+    &:focus{
+      outline: none;
+    }
+}
+.gamesortbottom{
+  display: flex;
+  justify-content: space-around;
+  width: 1275px;
+  height: 132px;
+  align-items: center;
+}
+.types{
+  display: grid;
+  width: 42px;
+  span{
+    margin-top: 10px;
+    color: #d4d4d4;
+  }
+}
+}
